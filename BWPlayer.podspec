@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BWPlayer"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BWPlayer."
+  s.summary      = ""
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   This is a Player.
                    DESC
 
   s.homepage     = "https://github.com/liuxiangtao0620/BWPlayer"
@@ -39,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
+  s.license      = "MIT (example)"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -54,9 +53,9 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "liuxiangtao0620" => "liuxiangtao0620@163.com" }
-  # Or just: s.author    = "liuxiangtao"
-  # s.authors            = { "liuxiangtao" => "liuxiangtao@baidu.com" }
-  # s.social_media_url   = "http://twitter.com/liuxiangtao"
+  # Or just: s.author    = "liuxiangtao0620"
+  # s.authors            = { "liuxiangtao0620" => "email@address.com" }
+  # s.social_media_url   = "http://twitter.com/liuxiangtao0620"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,8 +63,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
-  s.platform     = :ios, “7.0”
+  # s.platform     = :ios
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"

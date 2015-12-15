@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		093842391C20537C009A2467 /* BMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 093842381C20537C009A2467 /* BMButton.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		0928AC321C1EFC7400923505 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +26,8 @@
 		0928AC341C1EFC7400923505 /* libBWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBWPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0928AC871C200FF100923505 /* BWPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPlayer.h; sourceTree = "<group>"; };
 		0928AC881C200FF100923505 /* BWPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPlayer.m; sourceTree = "<group>"; };
+		093842371C20537C009A2467 /* BMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMButton.h; sourceTree = "<group>"; };
+		093842381C20537C009A2467 /* BMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 			children = (
 				0928AC871C200FF100923505 /* BWPlayer.h */,
 				0928AC881C200FF100923505 /* BWPlayer.m */,
+				093842371C20537C009A2467 /* BMButton.h */,
+				093842381C20537C009A2467 /* BMButton.m */,
 			);
 			path = BWPlayer;
 			sourceTree = "<group>";
@@ -116,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093842391C20537C009A2467 /* BMButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

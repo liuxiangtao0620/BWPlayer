@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		0928AC381C1EFC7400923505 /* BWPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0928AC371C1EFC7400923505 /* BWPlayer.h */; };
-		0928AC3A1C1EFC7400923505 /* BWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0928AC391C1EFC7400923505 /* BWPlayer.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		0928AC321C1EFC7400923505 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0928AC381C1EFC7400923505 /* BWPlayer.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		0928AC341C1EFC7400923505 /* libBWPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBWPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0928AC371C1EFC7400923505 /* BWPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPlayer.h; sourceTree = "<group>"; };
-		0928AC391C1EFC7400923505 /* BWPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPlayer.m; sourceTree = "<group>"; };
+		0928AC871C200FF100923505 /* BWPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWPlayer.h; sourceTree = "<group>"; };
+		0928AC881C200FF100923505 /* BWPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +38,7 @@
 		0928AC2B1C1EFC7400923505 = {
 			isa = PBXGroup;
 			children = (
-				0928AC361C1EFC7400923505 /* BWPlayer */,
+				0928AC861C200FF100923505 /* BWPlayer */,
 				0928AC351C1EFC7400923505 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,11 +51,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0928AC361C1EFC7400923505 /* BWPlayer */ = {
+		0928AC861C200FF100923505 /* BWPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0928AC371C1EFC7400923505 /* BWPlayer.h */,
-				0928AC391C1EFC7400923505 /* BWPlayer.m */,
+				0928AC871C200FF100923505 /* BWPlayer.h */,
+				0928AC881C200FF100923505 /* BWPlayer.m */,
 			);
 			path = BWPlayer;
 			sourceTree = "<group>";
@@ -122,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0928AC3A1C1EFC7400923505 /* BWPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +238,7 @@
 				0928AC3F1C1EFC7400923505 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,4 +18,8 @@
     return self;
 }
 
+- (void)play{
+    NSLog(@"play");
+}
+
 @end
